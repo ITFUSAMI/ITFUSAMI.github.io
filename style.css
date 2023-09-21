@@ -230,21 +230,4 @@ body {
   }
 }
 
-/* Agrega una animación para mover los pétalos con el viento */
-@keyframes swayPetal {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-/* Aplica la animación a los pétalos */
-.Petal1, .Petal2, .Petal3 {
-    animation: swayPetal 3s infinite;
-}
 
